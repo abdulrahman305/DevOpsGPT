@@ -19,3 +19,4 @@ flask-limiter
 boto3
 # yum install mysql-devel gcc gcc-devel python-devel
 # mysqlclient
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
