@@ -95,7 +95,7 @@ Each code file must strictly follow a markdown code block format, where the foll
 FILEPATH is a file name that contains the file extension
 LANG is the markup code block language for the code's language
 CODE_EXPLANATION explain the code you provide in detail, this explain should be independent. For example: specific variable names and types to be added and modified, method names to be added or modified, parameter names, and so on
-CODE is the code:
+CODE is the code(filepath, code explanation, and code must be output in the following format):
 
 filepath:FILEPATH
 code explanation: CODE_EXPLANATION
