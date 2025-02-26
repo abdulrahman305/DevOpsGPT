@@ -91,12 +91,14 @@ Now complete all Pseudocode codes according to the above information including A
 Please note that the code should be fully functional. No placeholders no todo ensure that all code can run in production environment correctly.
 
 You will output the content of each file including ALL code.
-Each code file must strictly follow a markdown code block format, where the following tokens must be replaced such that
+Each code file must strictly follow a block format without plaintext, where the following tokens must be replaced such that
 FILEPATH is a file name that contains the file extension
 LANG is the markup code block language for the code's language
 CODE_EXPLANATION explain the code you provide in detail, this explain should be independent. For example: specific variable names and types to be added and modified, method names to be added or modified, parameter names, and so on
-CODE is the code:
+CODE is the code
+Notice:must be output in the following format without plaintext
 
+** FILEPATH **
 filepath:FILEPATH
 code explanation: CODE_EXPLANATION
 ```LANG
@@ -144,16 +146,18 @@ Think step by step and reason yourself to the right decisions to make sure we ge
 You will output the pseudocode of each file based on the "Existing Code directory structure". 
 Do not write markdown code.
 
-Each pseudocode file must strictly follow a markdown code block format, where the following tokens must be replaced such that
+Each pseudocode file must strictly follow a block format without plaintext, where the following tokens must be replaced such that
 FILEPATH is a file name that contains the file extension
 LANG is the markup code block language for the code's language
 COMMENT as well as a quick comment on their purpose
-CODE is the code:
+CODE is the code
+Notice:must be output in the following format without plaintext
 
-FILEPATH
+** FILEPATH **
+filepath:FILEPATH
+code explanation: CODE_EXPLANATION
 ```LANG
-# COMMENT
-CODE``` 
+CODE```
 
 Do not explain and talk, directly respond pseudocode of each file.
 """
