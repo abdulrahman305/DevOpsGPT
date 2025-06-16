@@ -1,5 +1,5 @@
 flask-sqlalchemy==3.1.1
-flask-cors==4.0.1
+flask-cors==6.0.0
 flask==2.2.5
 pyyaml
 python-gitlab
@@ -21,3 +21,4 @@ boto3
 # mysqlclient
 aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
 werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
